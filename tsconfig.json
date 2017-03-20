@@ -5,7 +5,12 @@
         "noImplicitAny": false,
         "sourceMap": true,
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
+        "emitDecoratorMetadata": true,
+        "rootDir": "src/main/ts",
+        "outDir": "src/main/js/",
+        "diagnostics":true,
+        "strictNullChecks":true,
+        "types" : ["@angular/common", "@angular/core"]
     },
     "exclude": [
         "node_modules"

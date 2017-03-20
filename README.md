@@ -11,3 +11,11 @@ zone.js
 
 npm install --save-dev @types/core-js
 
+The following is very important to get rid of compiling node_modules
+"compilerOptions": {
+       "types" : ["node", "lodash", "express"]
+   }
+
+
+npm install --save systemjs
+   
