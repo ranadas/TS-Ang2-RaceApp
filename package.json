@@ -1,0 +1,12 @@
+{
+  "name": "TS-Ang2-RaceApp",
+  "version": "1.0.0",
+  "description": "Angular App (A2) with Typescript2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rana Das",
+  "license": "ISC"
+}
