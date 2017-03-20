@@ -19,5 +19,5 @@ bower_components
 report
 .gradle/
 
-app/dist/*.js
-app/dist/*.map
+src/main/js/*.js
+src/main/js/*.map
