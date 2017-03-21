@@ -18,4 +18,6 @@ The following is very important to get rid of compiling node_modules
 
 
 npm install --save systemjs
-   
+
+tsconfig compiler options to investigate : 
+"rootDir": ".",   

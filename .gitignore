@@ -20,5 +20,5 @@ bower_components
 report
 .gradle/
 
-src/main/**.*/*.js
-src/main/**.*/*.map
+src/main/**/*.js
+src/main/**/*.map
