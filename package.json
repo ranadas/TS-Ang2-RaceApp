@@ -4,7 +4,10 @@
   "description": "Angular App (A2) with Typescript2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "http-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
   },
   "keywords": [],
   "author": "Rana Das",
@@ -25,6 +28,9 @@
   },
   "devDependencies": {
     "@types/core-js": "^0.9.37",
-    "http-server": "^0.9.0"
+    "@types/node": "^7.0.8",
+    "concurrently": "^3.4.0",
+    "http-server": "^0.9.0",
+    "typescript": "^2.2.1"
   }
 }
