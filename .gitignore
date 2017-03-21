@@ -12,6 +12,7 @@ Thumbs.db
 node_modules
 bower_components
 #.tmp
+#.log
 
 # Ignore Test reporters
 ###################
@@ -19,5 +20,5 @@ bower_components
 report
 .gradle/
 
-src/main/js/*.js
-src/main/js/*.map
+src/main/**.*/*.js
+src/main/**.*/*.map
