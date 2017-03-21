@@ -14,7 +14,8 @@
         "moduleResolution": "node",
         "lib": ["dom", "es6"],
         "typeRoots": ["./node_modules/@types/"],
-        "types" : ["core-js"]
+        "types" : ["core-js"],
+        "suppressImplicitAnyIndexErrors": true,
     },
     "compileOnSave": true,
     "exclude": [

@@ -22,3 +22,4 @@ report
 
 src/main/**/*.js
 src/main/**/*.map
+angular2-registraton-login-example/
