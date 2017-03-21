@@ -10,9 +10,11 @@
         "outDir": "src/main/js/",
         "diagnostics":true,
         "strictNullChecks":true,
-        "types" : ["@angular/common", "@angular/core"]
+        "typeRoots": ["node_modules/@types"],
+        "types" : ["core-js"]
     },
     "exclude": [
+        "node_modules/@typings",
         "node_modules"
     ]
 }
