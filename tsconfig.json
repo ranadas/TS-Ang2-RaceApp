@@ -15,11 +15,12 @@
         "lib": ["dom", "es6"],
         "typeRoots": ["./node_modules/@types/"],
         "types" : ["core-js"],
-        "suppressImplicitAnyIndexErrors": true,
+        "suppressImplicitAnyIndexErrors": true
     },
     "compileOnSave": true,
     "exclude": [
         "node_modules/@typings",
-        "node_modules/*"
+        "node_modules/*",
+        "references_project/*"
     ]
 }

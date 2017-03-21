@@ -12,7 +12,7 @@ Thumbs.db
 node_modules
 bower_components
 #.tmp
-#.log
+*.log
 
 # Ignore Test reporters
 ###################
@@ -22,4 +22,4 @@ report
 
 src/main/**/*.js
 src/main/**/*.map
-angular2-registraton-login-example/
+references_project/

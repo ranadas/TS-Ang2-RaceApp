@@ -21,3 +21,5 @@ npm install --save systemjs
 
 tsconfig compiler options to investigate : 
 "rootDir": ".",   
+
+https://basarat.gitbooks.io/typescript/content/docs/project/external-modules.html
