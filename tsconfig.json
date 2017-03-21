@@ -10,6 +10,9 @@
         "outDir": "src/main/js/",
         "diagnostics":true,
         "strictNullChecks":true,
+        "rootDir": ".",
+        "moduleResolution": "node",
+        "lib": ["dom", "es6"],
         "typeRoots": ["node_modules/@types"],
         "types" : ["core-js"]
     },
