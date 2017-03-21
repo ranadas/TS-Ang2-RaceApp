@@ -6,7 +6,7 @@ import {RanaDasAppComponent} from './app.component';
 @NgModule({
     imports: [BrowserModule],
     declarations:[PonyRacerAppComponent, RanaDasAppComponent],
-    bootstrap: [PonyRacerAppComponent]
+    bootstrap: [PonyRacerAppComponent, RanaDasAppComponent]
 })
 export class AppModule {
 
