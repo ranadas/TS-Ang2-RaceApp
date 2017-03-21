@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'ponyracer-app',
@@ -10,7 +10,17 @@ export class PonyRacerAppComponent {
 
 @Component({
     selector: 'ranadas-app',
-    template: '<h2> Rana Das </h2>'
+    template: `
+        <DIV>
+            <h2>{{pageTitle}}</h2>
+            <h4>a Component</h4>
+        </DIV>
+    `
 })
-export class RanaDasAppComponent {
+export class RanaDasAppComponent implements OnInit {
+    pageTitle: string = 'InStep Angular ';
+
+    ngOnInit(): void {
+        console.log(':)))');
+    }
 }
