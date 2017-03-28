@@ -23,3 +23,8 @@ tsconfig compiler options to investigate :
 "rootDir": ".",   
 
 https://basarat.gitbooks.io/typescript/content/docs/project/external-modules.html
+
+
+https://medium.com/@ct7/angular2-module-architecture-and-example-seed-project-35b7410264f5
+https://github.com/conduitl/ng-savant/tree/master/seed
+
